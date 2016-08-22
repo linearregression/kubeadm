@@ -1,0 +1,10 @@
+author: Ilya Dmitrichenko
+description: kubeadm - easy way to bootsrap a Kubernetes cluster anywhere
+os: darwin linux windows
+includes:
+  - README.md
+excludes:
+  - \.git
+script:
+  - go get -v
+  - go build
