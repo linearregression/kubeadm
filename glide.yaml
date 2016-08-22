@@ -1,0 +1,7 @@
+package: "github.com/errordeveloper/kubeadm"
+import:
+- package: "k8s.io/kubernetes"
+  repo: "https://github.com/errordeveloper/kubernetes"
+  version: "7e4b3080194b8d11179faaeca5395bf755c40bca"
+  subpackages:
+  - cmd/kubeadm/app
